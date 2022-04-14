@@ -1,0 +1,38 @@
+app/storage/brokers/*
+!app/storage/brokers/.gitkeep
+
+app/storage/notifications/*
+!app/storage/notifications/.gitkeep
+
+app/storage/book_log/*
+!app/storage/book_log/.gitkeep
+
+app/storage/logs/*
+!app/storage/logs/.gitkeep
+
+# Project
+.idea/
+*.pyc
+node_modules/
+.env
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Serverless directories
+.serverless
